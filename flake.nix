@@ -28,6 +28,9 @@
               buildEnv {
                 paths = [
                   ros-core
+                  ament-cmake-core
+                  python-cmake-module
+                  desktop
                   # ... other ROS packages
                 ];
               }
