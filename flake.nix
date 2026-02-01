@@ -19,7 +19,7 @@
       in
       {
         devShells.default = pkgs.mkShell {
-          name = "Example project";
+          name = "ros2";
           packages = [
             pkgs.colcon
             # ... other non-ROS packages
