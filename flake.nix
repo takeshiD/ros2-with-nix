@@ -22,6 +22,9 @@
           name = "ros2";
           packages = [
             pkgs.colcon
+            pkgs.cmake-language-server
+            pkgs.clang-tools
+            # pkgs.rosdep
             # ... other non-ROS packages
             (
               with pkgs.rosPackages.humble;
